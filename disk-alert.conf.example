@@ -1,0 +1,12 @@
+# Copy to /etc/disk-alert.conf and use: disk-alert.sh -f /etc/disk-alert.conf
+WARN_THRESHOLD=80
+CRIT_THRESHOLD=90
+
+# Space-separated mount points to check. Leave empty to check all.
+MOUNTS="/ /home /var"
+
+# Where to send alerts (leave empty to disable)
+ALERT_EMAIL="ops@example.com"
+WEBHOOK_URL=""   # e.g. https://hooks.slack.com/services/XXX/YYY/ZZZ
+
+LOG_FILE="/var/log/disk-alert.log"

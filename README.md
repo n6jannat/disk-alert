@@ -14,7 +14,7 @@ CRITICAL  95%  /data                used 950G of 1.0T (50G free, xfs)
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-user>/disk-alert.git
+git clone https://github.com/n6jannat/disk-alert.git
 cd disk-alert
 ./disk-alert.sh                 # check all disks with defaults (warn 80%, crit 90%)
 ./disk-alert.sh -w 70 -c 85     # custom thresholds
